@@ -1,0 +1,109 @@
+# dataset path and num class
+
+
+# Agriculture
+CropDisease:
+  data_path: "/path/to/downstream/data/CropDiseases"
+  num_class: 38
+  num_data: 54305
+  split: 43456,10849
+
+DeepWeeds:
+  data_path: "/path/to/downstream/data/DeepWeeds"
+  num_class: 9
+  num_data: 17509
+
+
+Flowers102:
+  data_path: "/path/to/downstream/data/102flowers"
+  num_class: 102
+  num_data: 6149
+  split: 6149,1020
+
+# Satellite
+EuroSAT:
+  data_path: "/path/to/downstream/data/EuroSAT/2750"
+  num_class: 10
+  num_data: 27000
+
+Resisc45:
+  data_path: "/path/to/downstream/data/Resisc45"
+  num_class: 45
+  num_data: 31500
+
+# Medical
+ChestX:
+  data_path: "/path/to/downstream/data/chest_xray"
+  num_class: 7
+  num_data: 25848
+
+ISIC:
+  data_path: "/path/to/downstream/data/ISIC"
+  num_class: 7
+  num_data: 10015
+
+# Texture
+DTD:
+  data_path: "/path/to/downstream/data/dtd/"
+  num_class: 47
+
+# Symbolic
+Omniglot:
+  data_path: "/path/to/downstream/data/omniglot"
+  num_class: 1623
+  num_data: 13180
+
+SVHN:
+  data_path: "/path/to/downstream/data/SVHN"
+  num_class: 10
+  num_data: 73257
+  split: 73257,26032
+
+# Art
+Kaokore:
+  data_path: "/path/to/downstream/data/kaokore"
+  num_class: 8
+  num_data: 6568
+  split:
+
+Sketch:
+  data_path: "/path/to/downstream/data/sketch"
+  num_class: 1000
+  num_data: 50889
+
+
+
+# Unseen datasets
+CUB:
+  data_path: "/path/to/downstream/data/CUB_data/CUB_200_2011"
+  num_class: 200
+  num_data: 6032
+  split: 3000,3033
+
+PacsC:
+  data_path: "/path/to/downstream/data/PACS"
+  num_class: 7
+
+PacsS:
+  data_path: "/path/to/downstream/data/PACS"
+  num_class: 7
+
+USPS:
+  data_path: "/path/to/downstream/data/USPS"
+  num_class: 10
+
+FMD:
+  data_path: "/path/to/downstream/data/FMD"
+  num_class: 10
+
+CactusAerial:
+  data_path: "/path/to/downstream/data/CactusAerial"
+  num_class: 2
+
+AID:
+  data_path: "/path/to/downstream/data/AID"
+  num_class: 30
+
+ChestXPneumonia:
+  data_path: "/path/to/downstream/data/ChestXPneumonia"
+  num_class: 2

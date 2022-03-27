@@ -1,0 +1,80 @@
+AID:
+  lr: 0.01
+  bs: 128
+  wd: 0.0
+CUB:
+  lr: 0.01
+  bs: 128
+  wd: 1.0e-05
+CactusAerial:
+  lr: 0.01
+  bs: 128
+  wd: 1.0e-05
+ChestX:
+  bs: 128
+  lr: 0.001
+  wd: 1.0e-05
+ChestXPneumonia:
+  lr: 0.001
+  bs: 32
+  wd: 0.0
+CropDisease:
+  bs: 128
+  lr: 0.01
+  wd: 0.0
+DTD:
+  bs: 128
+  lr: 0.01
+  wd: 0.0
+DeepWeeds:
+  bs: 128
+  lr: 0.01
+  wd: 0.0
+EuroSAT:
+  bs: 128
+  lr: 0.01
+  wd: 1.0e-05
+FMD:
+  lr: 0.001
+  bs: 32
+  wd: 1.0e-05
+Flowers102:
+  bs: 128
+  lr: 0.01
+  wd: 0.0
+ISIC:
+  bs: 32
+  lr: 0.001
+  wd: 0.0
+Kaokore:
+  bs: 128
+  lr: 0.001
+  wd: 0.0
+Omniglot:
+  bs: 128
+  lr: 0.1
+  wd: 1.0e-05
+PacsC:
+  lr: 0.01
+  bs: 128
+  wd: 0.0
+PacsS:
+  lr: 0.01
+  bs: 128
+  wd: 0.0
+Resisc45:
+  bs: 128
+  lr: 0.01
+  wd: 0.0
+SVHN:
+  bs: 128
+  lr: 0.01
+  wd: 0.0
+Sketch:
+  bs: 128
+  lr: 0.01
+  wd: 0.0
+USPS:
+  lr: 0.01
+  bs: 32
+  wd: 0.0
