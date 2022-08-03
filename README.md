@@ -39,7 +39,7 @@ using the `--debug` flag in all of the following scripts.
 
 For pre-training a Resnet-50 backbone on an image dataset, run the command
 ```bash
-python run_with_submitit.py --debug --nodes 4 --cfg-yml configs/pt_default.yaml \
+python run_with_submitit.py --debug --ngpus 4 --cfg-yml configs/pt_default.yaml \
 --cfg-override SAVE_DIR path/to/output_dir DATA_DIR path/to/pre-training/image/data
 ```
 
