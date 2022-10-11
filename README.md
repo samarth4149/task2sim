@@ -93,3 +93,17 @@ For training the Task2Sim model, simply run
 ```bash
 python controller/train_controller.py --debug --cfg-override SAVE_DIR path/to/output/dir
 ```
+
+## Citation
+
+If you use code from this repository in your work, please cite :
+
+```
+@inproceedings{mishra2022task2sim,
+  title={Task2Sim: Towards Effective Pre-training and Transfer from Synthetic Data},
+  author={Mishra, Samarth and Panda, Rameswar and Phoo, Cheng Perng and Chen, Chun-Fu Richard and Karlinsky, Leonid and Saenko, Kate and Saligrama, Venkatesh and Feris, Rogerio S},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9194--9204},
+  year={2022}
+}
+```
