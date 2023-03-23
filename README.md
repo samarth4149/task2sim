@@ -4,7 +4,7 @@
 
 For installing all python packages required, run `pip install -r requirements.txt`.
 Additionally, for generating data using Three-D-World(TDW), you might need to follow 
-additional instructions based on your use-case following [this](https://github.com/threedworld-mit/tdw/blob/master/Documentation/getting_started.md).
+additional instructions based on your use-case following [this](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/setup/install.md).
 
 *Downloading Downstream Task Data*: Please follow the instructions [here](https://github.com/asrafulashiq/transfer_broad#download-datasets) 
 for downloading data for the seen set of tasks. For unseen tasks, please follow the citations in the paper.
